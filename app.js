@@ -25,3 +25,11 @@ function occupyParking (yesterday, today, space) {
     return count;
 }
 console.log(occupyParking("CC..C", ".CC..", 5));
+
+write function with parameter decimal
+run a loop checking for the amount of place values
+check if number in e
+
+
+
+
