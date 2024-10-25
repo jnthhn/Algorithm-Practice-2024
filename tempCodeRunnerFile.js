@@ -1,10 +1,11 @@
-function occupyParking (yesterday, today, space) {
-    let count = 0;
-    for (let i = 0; i < space; i++) {
-        if(yesterday[i] === 'C' && today[i] === 'C') {
-            count++;
+function decimalConverter(binary){
+    let decimal = 0
+
+    for(let i = 0; i < binary.length; i++) {
+        if(binary[binary.length -1 -i] ==="1"){
+            decimal = decimal + Math.pow(2,i)
         }
     }
-    return count;
+    return decimal;
 }
-console.log(occupyParking("CC..C", ".CC..",5));
+console.log(decimalConverter("1101"));

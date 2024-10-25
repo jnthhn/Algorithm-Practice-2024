@@ -26,10 +26,25 @@ function occupyParking (yesterday, today, space) {
 }
 console.log(occupyParking("CC..C", ".CC..", 5));
 
-write function with parameter decimal
-run a loop checking for the amount of place values
-check if number in e
 
 
+function decimalConverter(binary){
+    let decimal = 0
+
+    for(let i = 0; i < binary.length; i++) {
+        if(binary[binary.length -1 -i] ==="1"){
+            decimal = decimal + Math.pow(2,i)
+        }
+    }
+    return decimal;
+}
+console.log(decimalConverter("1101"));
 
 
+function binaryConverter(decimal){
+
+    for(let i = 0; i < decimal.length; i++) {
+        
+    }
+
+}
